@@ -67,13 +67,13 @@ public class CalculatorTest {
 	public void testDivide() {
 		//fail("Not yet implemented");
 		
-		int a = 4321;
-		int b = 1234;
+		int a = 27;
+		int b = 3;
 		
 		Calculator cal = new Calculator();
 		int actual = cal.divide(a, b);
 		
-		int expected = (int) 3.50162074554295 ;
+		int expected = 9;
 		assertEquals(expected, actual);
 		
 	}
