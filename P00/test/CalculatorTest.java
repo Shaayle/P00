@@ -35,13 +35,13 @@ public class CalculatorTest {
 	public void testSubtract() {
 		//fail("Not yet implemented");
 		
-		int a = 4321;
-		int b = 1234;
+		int a = 8888;
+		int b = 7777;
 		
 		Calculator cal = new Calculator();
 		int actual = cal.subtract(a, b);
 		
-		int expected = 3087 ;
+		int expected = 1111 ;
 		assertEquals(expected, actual);
 		
 	}
@@ -55,13 +55,12 @@ public class CalculatorTest {
 		int b = 1234;
 		
 		Calculator cal = new Calculator();
-		int actual = cal.multiply(a, b);
+		int actual = cal.multiply(a, b); // multiply
 		
 		int expected = 5332114 ;
 		assertEquals(expected, actual);
 		
 	}
-	
 	
 	@Test
 	public void testDivide() {
